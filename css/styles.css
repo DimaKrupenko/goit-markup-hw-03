@@ -17,9 +17,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+
 .conteiner {
     width: 1200px;
-    
+    outline: 1px solid tomato;
 }
 
 /* секция хедер */
@@ -50,8 +51,9 @@ body {
 }
 .navigation-link {
     color: var(--title-text-color);
-    
-    
+}
+.contacts {
+    margin-bottom: 0;
 }
 .navigation :hover, 
 .navigation :focus {
@@ -70,7 +72,7 @@ body {
 /* главная секция */
 .main {
 background-color: #2F303A;
-
+text-align: center;
 }
 .main-title {
     color: #FFFFFF;
@@ -82,10 +84,11 @@ background-color: #2F303A;
     text-transform: uppercase;
     width: 696px;
     margin-top: 0;
-    padding-top: 200px;
-    padding-bottom: 30px;
-    padding-left: 452px;
-    padding-right: 452px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
     
 }
 .main-button {
@@ -101,18 +104,15 @@ background-color: #2F303A;
     border: 0;
     border-radius: 4px;
     padding: 10px 32px;
-    margin-left: 700px;
-    margin-right: auto;
-    margin-top: 30px;
     margin-bottom: 200px;
     min-width: 136px;
+ 
    
-    
 }
 /* наши преимущества */
 .feature {
-    margin-bottom: 94px;
-    margin-top: 94px;
+    margin-bottom: 0;
+    margin-top: 0;
     margin-left: 215px;
     margin-right: 215px;
     width: 1170px;
@@ -124,13 +124,17 @@ background-color: #2F303A;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 94px;
     
 }
 .text {
-    
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    padding-top: 10px;
 }
 
 /* чем мы занимаемся */
@@ -142,7 +146,9 @@ background-color: #2F303A;
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
-    margin-left: 612px;
+    margin-left: auto;
+    margin-right: auto;
+    Width: 376px;
         
 }
 .activities-list {
@@ -157,8 +163,9 @@ background-color: #2F303A;
     text-align: center;
     margin-top: 94;
     margin-bottom: 50px;
-    margin-left: 668px;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 264px;
 }
 .team-list {
     margin-top: 0;
@@ -248,10 +255,19 @@ footer {
     letter-spacing: 0.06em;
     cursor: default;
     text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 .portfolio-text {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    margin-top: 0;
+}
+.portfolio-list {
+    box-sizing: border-box;
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
