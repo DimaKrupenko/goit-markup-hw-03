@@ -19,6 +19,7 @@ body {
 
 .conteiner {
     width: 1200px;
+    
 }
 
 /* секция хедер */
@@ -31,19 +32,21 @@ body {
     letter-spacing: 0.02em;
 }
 .logo {
+    
     font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: #2196F3;
-}
-.studio {
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: #2196F3;
+   
+    
+    
+}
+.studio {
     color: var(--title-text-color);
+    
 }
 .navigation-link {
     color: var(--title-text-color);
@@ -67,10 +70,10 @@ body {
 /* главная секция */
 .main {
 background-color: #2F303A;
+
 }
 .main-title {
     color: #FFFFFF;
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -83,6 +86,7 @@ background-color: #2F303A;
     padding-bottom: 30px;
     padding-left: 452px;
     padding-right: 452px;
+    
 }
 .main-button {
     display: inline-block;
@@ -92,26 +96,35 @@ background-color: #2F303A;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    border: 0;
     border-radius: 4px;
     padding: 10px 32px;
     margin-left: 700px;
-    margin-right: 700px;
+    margin-right: auto;
     margin-top: 30px;
     margin-bottom: 200px;
-    min-width: 200px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    min-width: 136px;
+   
     
 }
 /* наши преимущества */
-.section-title {
+.feature {
+    margin-bottom: 94px;
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+    width: 1170px;
+
+}
+.feature-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    
 }
 .text {
     
@@ -119,35 +132,52 @@ background-color: #2F303A;
     font-size: 14px;
     line-height: 1.71;
 }
+
 /* чем мы занимаемся */
-.our-activities-title {
+.activities {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 612px;
         
 }
-.our-team-title {
+.activities-list {
+    margin-top: 0;
+}
+/* наша команда */
+.team {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-top: 94;
+    margin-bottom: 50px;
+    margin-left: 668px;
+    
 }
-/* наша команда */
+.team-list {
+    margin-top: 0;
+}
 .name {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 .job {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-top: 0;
 }
 /* футер */
 footer {
@@ -168,6 +198,8 @@ footer {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-top: 20px;
+    margin-bottom: 9px;
 }
 .contacts-footer {
     color: rgba(255, 255, 255, 0.6);
@@ -179,6 +211,9 @@ footer {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.list {
+    margin-top: 0;
 }
 
 .list :hover, 
