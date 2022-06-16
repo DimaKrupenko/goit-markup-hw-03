@@ -52,7 +52,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 0;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .navigation {
