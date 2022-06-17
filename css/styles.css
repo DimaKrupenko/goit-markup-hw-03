@@ -129,7 +129,7 @@ margin-top: 0;
 
 }
 .main-title {
-    margin-top: 200px;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -139,7 +139,6 @@ margin-top: 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     width: 696px;
@@ -151,7 +150,7 @@ margin-top: 0;
     display: inline-block;
     cursor: pointer;
     padding: 10px 32px;
-    margin-bottom: 200px;
+    
     min-width: 136px;
     color: #FFFFFF;
     background-color: #2196F3;
