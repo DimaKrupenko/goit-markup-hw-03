@@ -28,6 +28,7 @@ p {
     margin-inline-end: 0px;
 }
 
+
 .conteiner {
     width: 1200px;
     margin-left: auto;
@@ -37,6 +38,7 @@ p {
     
 
 }
+
 
 .section {
     padding-top: 94px;
@@ -135,7 +137,8 @@ p {
 .main {
 background-color: #2F303A;
 text-align: center;
-
+padding-top: 200px;
+padding-bottom: 200px;
 
 }
 .main-title {
@@ -207,9 +210,10 @@ text-align: center;
 }
 
 /* чем мы занимаемся */
+
 .activities {
     margin-bottom: 0;
-   
+    padding-top: 0;
 }
 .activities-title {
     margin-bottom: 50px;
@@ -241,7 +245,6 @@ text-align: center;
 .team-title {
     margin-top: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -351,7 +354,7 @@ color: var(--accent-color);
 .filter {
     display: flex;
     margin-top: 0;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     width: 594px;
     margin-left: auto;
     margin-right: auto;
@@ -432,6 +435,7 @@ color: var(--accent-color);
     letter-spacing: 0.06em;
     cursor: default;
     text-decoration: none;
+    margin-top: 0;
     margin-bottom: 4px;
     
     
